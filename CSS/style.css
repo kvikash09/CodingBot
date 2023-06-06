@@ -1,0 +1,144 @@
+.head {
+  background-color: aqua;
+  text-align: center;
+}
+.para {
+  text-indent: 20px;
+}
+.first {
+  font-size: 3em;
+}
+.second {
+  font-size: 2em;
+}
+.third {
+  font-size: 300%;
+}
+.fourth {
+  font-size: 64px;
+}
+.fifth {
+  font-size: larger;
+}
+.text1 {
+  color: cornflowerblue;
+  text-align: left;
+  word-spacing: 4px;
+  letter-spacing: 2px;
+  line-height: 2;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+.text2 {
+  color: coral;
+  text-align: right;
+}
+.text3 {
+  text-align: center;
+}
+.text4 {
+  text-align: justify;
+}
+.text5 {
+  text-align: start;
+  border: 2px solid;
+  border-color: rgb(192, 248, 8);
+  border-radius: 5px;
+  border-style: groove;
+  padding: 10px;
+}
+.text6 {
+  text-align: end;
+}
+a {
+  text-decoration: none;
+  text-decoration-color: rgba(254, 4, 146, 0.5);
+  text-decoration-style: solid;
+  font-weight: bolder;
+  font-size: 64px;
+}
+.boxModel {
+  border: 5px solid greenyellow;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 40px;
+  border-style: groove;
+}
+/* Pseudo Selector */
+/* div {
+  border: 3px solid red;
+  margin: 10px;
+  padding: 5px;
+} */
+.container p:nth-child(odd) {
+  background-color: yellow;
+  color: red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 32px;
+}
+.container p:nth-child(even) {
+  background-color: rgb(12, 139, 50);
+  color: blue;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+}
+/* Anchor Tag */
+a:link {
+  text-decoration: none;
+  color: yellow;
+  background-color: blue;
+  border-radius: 20px;
+}
+a:visited {
+  text-decoration: none;
+  background-color: green;
+  color: pink;
+  border-radius: 20px;
+}
+a:hover {
+  background-color: beige;
+  color: darkslategray;
+  border-radius: 20px;
+}
+a:active {
+  text-decoration: none;
+  color: crimson;
+  background-color: dodgerblue;
+  border-radius: 20px;
+}
+/* Float */
+.contain {
+  border: 5px solid rgb(231, 181, 181);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: groove;
+  border-radius: 20px;
+}
+.image {
+  border-style: groove;
+  padding: 20px;
+  float: left;
+  margin: 5px;
+  border-radius: 20px;
+}
+.tone {
+  padding: 20px;
+  font-size: 20px;
+  float: left;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+/* Sibling Selector */
+div + p {
+  color: green;
+  font-size: 40px;
+}
+/* Adjecent Sibling */
+div ~ p {
+  color: red;
+  font-size: 40px;
+}
